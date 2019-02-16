@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: POC_ARCHITECTURE_CLASSIC_VS_STREAMING
+    
+  jackson:
+    serialization:
+      indent-output: true
+      
+  output:
+    ansi:
+        enabled: DETECT
+    
+logging:
+  level:
+    root: WARN
+    org.hibernate.SQL: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: INFO
+    org.springframework.transaction: INFO
+    org.springframework.test.web: WARN
+    org.springframework.core.env: WARN

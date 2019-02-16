@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: POC_ARCHITECTURE_CLASSIC_VS_STREAMING
+    
+  jackson:
+    serialization:
+      indent-output: true
+      
+  output:
+    ansi:
+        enabled: DETECT
